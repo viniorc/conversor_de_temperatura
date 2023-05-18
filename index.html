@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="estilo.css">
+<title>Conversor de Temperatura</title>
+</head>
+<body>
+
+  <h1>Conversor de Temperatura</h1>
+
+  <form>
+    <label for="inTemperatura">Temperatura:</label>
+    <input type="number" id="inTemperatura" step="0.01" min="-273.15" name="temperatura" required>
+    <label for="inTempConhecida">Temperatura Conhecida:</label>
+
+    <select id="inTempConhecida" name="tempConhecida">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+
+    <label for="inConverterPara">Converter Para:</label>
+
+    <select id="inConverterPara" name="converterPara">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+
+    <input id="converter" type="submit" value="Coverter">
+
+    <p>Resultado:</p>
+    <h3></h3> 
+
+  </form>
+  
+  <script src="script.js"></script>
+    
+</body>
+</html>
