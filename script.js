@@ -162,6 +162,6 @@ frm.addEventListener("submit", (e) => {
         }
     }
 
-    //resp.innerText = `${resultadoTemperatura.toFixed(2)}`//
+   
 
 })
